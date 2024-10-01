@@ -1,0 +1,74 @@
+/* 
+exemplo para a nav bar
+*/
+
+nav{
+    text-align: left;
+    font-size: 25px;
+    background-color: yellow;
+    font-style: oblique;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    
+}
+
+
+
+p{
+    /* text-align: right;
+
+/* background-color: aquamarine; */
+/* font-size: 20px;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */ */
+}
+
+.p1classeindex{
+    background-color: antiquewhite;
+    text-align: left;
+
+}
+footer {
+    font-size: 20px;
+    text-align: center;
+    color: blue;
+    
+
+}
+footer img {
+    max-width: 5%;
+    min-width: 5%;
+    width: 5%
+}
+
+.bodyPag2{
+    font-family: "roboto", sans-serif;
+    text-align: left;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.ulFooterFruits{
+    
+    text-align: left;
+    color: brown;
+    font-family: "roboto" sans-serif;
+}
+
+.olFooterFruits{
+    
+    text-align: left;
+    color: blue;
+    font-family: "roboto" sans-serif;
+}
+
+.dtFooterFruits{
+    text-align: left;
+    color: red;
+    font-family: "roboto" sans-serif;
+}
+#linkCesae{
+    color: brown;
+    text-decoration: none;
+    font-weight: bolder;
+    font-size: large;
+}
+
