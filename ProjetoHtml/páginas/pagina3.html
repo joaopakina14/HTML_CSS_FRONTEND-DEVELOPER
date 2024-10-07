@@ -34,6 +34,149 @@
 
 </head>
 <body>
+    <h2 style="text-align: center;font-family: 'Roboto';">Exemplo dos vários campos utilizados nos formulários</h2>
+    <h4 style="text-align: center;">--- consultar links no código para explorar mais ---</h4>
+
+    <form action="" method="">
+
+        <fieldset>
+            <legend> Formulário de exemplo</legend>
+
+            <div>
+                <label for="form-nome">Nome:</label>
+                <input type="text" name="form-nome" id="form-nome" placeholder="Insira o seu nome" maxlength="50"
+                    required>
+
+            </div>
+            <br>
+            <div>
+                <label for="form-email">E-mail:</label>
+                <input type="email" name="form-email" id="form-email" value="email@email.com">
+            </div><br>
+
+            <div>
+                <label for="form-tel">Contacto telefónico</label>
+                <input type="tel" name="form-tel" id="form-tel" value="+351">
+            </div><br>
+
+            <div>
+                <label for="form-password">Password</label>
+                <input type="password" name="form-password" id="form-password">
+            </div><br>
+
+            <div>
+                <label for="form-dn">data de nascimento</label>
+                <input type="date" name="form-dn" id="form-dn">
+            </div><br>
+
+
+
+            <div>
+                <label for="form-dn">Seleção entre datas</label>
+                <input type="date" name="form-dn" id="form-dn" min="2024-08-01" max="2024-09-30">
+            </div><br>
+
+
+            <div>
+                <form>
+                    <label for="datemax">Coloque uma data antes de 1980-01-01:</label>
+                    <input type="date" id="datemax" name="datemax" max="1979-12-31"><br><br>
+                    <label for="datemin">Coloque uma data depois de 2000-01-01:</label>
+                    <input type="date" id="datemin" name="datemin" min="2000-01-02">
+                </form>
+            </div><br>
+
+            <div>
+                <label for="form-opcom">Selecione a sua operadora Comunicações:</label>
+                <br>
+                <label for="form-opcom-meo">MEO</label>
+                <input type="radio" name="form-opcom" id="form-opcom-meo">
+                <br>
+                <label for="form-opcom-nos">NOS</label>
+                <input type="radio" name="form-opcom" id="form-opcom-nos">
+                <br>
+                <label for="form-opcom-vodafone">Vodafone</label>
+                <input type="radio" name="form-opcom" id="form-opcom-vodafone">
+                <br>
+                <label for="form-opcom-woo">WOO</label>
+                <input type="radio" name="form-opcom" id="form-opcom-woo">
+            </div><br>
+
+            <div>
+                <label for="form-equip">Equipamentos disponiveis:</label>
+                <br>
+                <label for="equip1">TV</label>
+                <input type="checkbox" name="equip1" id="equip1" value="TV">
+                <br>
+                <label for="equip2">Box</label>
+                <input type="checkbox" name="equip2" id="equip2" value="Box">
+                <br>
+                <label for="equip3">Consola Jogos</label>
+                <input type="checkbox" name="equip3" id="equip3" value="Consola">
+                <br>
+                <label for="equip4">PC</label>
+                <input type="checkbox" name="equip4" id="equip4" value="PC">
+            </div><br>
+
+            <div>
+                <label for="form-curso">Selecione o seu curso:</label>
+                <br>
+                <select name="form-curso" id="form-curso">
+                    <option value="" disabled>Escolha uma opção da lista</option>
+                    <option value="form-curso-1">Front-end Dev</option>
+                    <option value="form-curso-2">Culinária</option>
+                    <option value="form-curso-3">SoundMix</option>
+                    <option value="form-curso-4">Redes</option>
+                    <option value="form-curso-5">Programador quântico</option>
+                </select>
+            </div>
+            <br>
+
+            <div>
+                <label for="form-mensagem">Mensagem:</label>
+                <br>
+                <textarea name="form-mensagem" id="form-mensagem" maxlength="200" cols="20" rows="10"
+                    style="width:500px; height:100px;"></textarea>
+            </div>
+            <!-- https://www.w3schools.com/tags/att_input_maxlength.asp -->
+
+            <br>
+            <hr>
+            <div>
+                <input type="reset" value="limpar">
+                <input type="submit" value="enviar">
+            </div>
+        </fieldset>
+
+    </form>
+
+    <!-- https://www.w3schools.com/html/html_forms.asp -->
+    <!-- https://www.w3schools.com/css/css_form.asp -->
+
+    <!-- form responsivo -->
+    <!-- https://www.w3schools.com/css/tryit.asp?filename=trycss_form_responsive -->
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+
+    <footer>
+        <hr>
+        <div>
+            <br>
+            <a href="https://www.facebook.com/CesaeDigital" target="_blank"> <img src="..\imagens/facebook.png"
+                    alt="facebook"></a>
+
+            <a href="https://www.linkedin.com/company/cesae-digital/" target="_blank"> <img
+                    src="..\imagens/linkedin.png" alt="linkedin"> </a>
+
+            <a href="https://www.youtube.com/user/CESAECanal" target="_blank"> <img src="..\imagens/youtube.png"
+                    alt="youtube"></a>
+
+        </div>
+
+        <h6>&copy; 2024 CESAE | Todos os direitos reservados | Desenvolvido por alguém </h6>
     
 </body>
 </html>
